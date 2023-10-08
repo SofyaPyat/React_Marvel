@@ -1,11 +1,11 @@
-import AppBanner from '../appBanner/AppBanner';
 import AppHeader from '../appHeader/AppHeader';
+import RandomChar from '../randomChar/RandomChar';
 
 function App() {
   return (
     <div className="App">
       <AppHeader/>
-      <AppBanner/>
+      <RandomChar/>
     </div>
   );
 }
