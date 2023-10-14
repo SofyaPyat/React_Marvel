@@ -30,6 +30,7 @@ class MarvelService {
             name: res.name,
             description: res.description,
             thumbnail: res.thumbnail.path + '.' + res.thumbnail.extension,
+            imgNotAvaliable: res.thumbnail.path.includes('image_not_available') ? true : false,
             homepage: res.urls[0].url,
             wiki: res.urls[1].url
         }
